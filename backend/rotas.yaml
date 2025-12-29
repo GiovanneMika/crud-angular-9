@@ -1,0 +1,173 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: CrudAngular9
+meta:
+  id: wrk_fe33c988853e4c519d1274ceb02da1be
+  created: 1767031124417
+  modified: 1767031124417
+  description: ""
+collection:
+  - name: Products
+    meta:
+      id: fld_ff334f82b3914fa8bee068d2d2bc485b
+      created: 1767031394877
+      modified: 1767031394877
+      sortKey: -1767031394877
+      description: ""
+    children:
+      - url: http://localhost:3001/products
+        name: Search
+        meta:
+          id: req_4c32cae8db264e779e5c0bd892373284
+          created: 1767031130216
+          modified: 1767031403435
+          isPrivate: false
+          description: ""
+          sortKey: -1767031398767
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.2.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/products
+        name: Create
+        meta:
+          id: req_35b3c64b4f114aaca41723d9ee8cbc0e
+          created: 1767031183656
+          modified: 1767031401939
+          isPrivate: false
+          description: ""
+          sortKey: -1767031398667
+        method: POST
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"name": "Mesa",
+            	"price":"450",
+            	"description": "Mesa de madeira azul"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/12.2.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/products/3583
+        name: Update
+        meta:
+          id: req_ca2f3842622c4b558b81f26cff4ae065
+          created: 1767031321872
+          modified: 1767031489621
+          isPrivate: false
+          description: ""
+          sortKey: -1767031398567
+        method: PUT
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"name": "Carro esportivo",
+            	"price":"45122120",
+            	"description": "Carro esportivo azul"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/12.2.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/products/df43
+        name: Patch
+        meta:
+          id: req_e1f04167f0b0479c89058f190e447022
+          created: 1767031343853
+          modified: 1767031520992
+          isPrivate: false
+          description: ""
+          sortKey: -1767031398467
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |-
+            {
+            	"description": "Mesa de madeira amarela"
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/12.2.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: http://localhost:3001/products/8ad8
+        name: Delete
+        meta:
+          id: req_10f6540047534561816281e3b1df7717
+          created: 1767031367116
+          modified: 1767031532109
+          isPrivate: false
+          description: ""
+          sortKey: -1767031398367
+        method: DELETE
+        headers:
+          - name: User-Agent
+            value: insomnia/12.2.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_61b59a8044075c24ace833b170f04f12c2499de0
+    created: 1767031124421
+    modified: 1767031124421
+environments:
+  name: Base Environment
+  meta:
+    id: env_61b59a8044075c24ace833b170f04f12c2499de0
+    created: 1767031124420
+    modified: 1767031124420
+    isPrivate: false
