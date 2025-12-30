@@ -1,0 +1,20 @@
+.git {
+    text-decoration: none;
+    color: #DE4C36;
+}
+
+.git:hover {
+    color: #af3a27
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.footer span {
+    font-weight: 400;
+}
