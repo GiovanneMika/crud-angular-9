@@ -1,40 +1,57 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": 1,
       "name": "Caneta Azul",
       "price": 19.99,
       "description": "Este é um produto de exemplo."
     },
     {
-      "id": "2",
+      "id": 2,
       "name": "Lápis Vermelho",
       "price": 29.99,
       "description": "Este é outro produto de exemplo."
     },
     {
-      "id": "3",
+      "id": 3,
       "name": "Caderno Verde",
       "price": 39.99,
       "description": "Este é o terceiro produto de exemplo."
     },
     {
-      "id": "df43",
-      "name": "Mesa",
-      "price": "450",
-      "description": "Mesa de madeira amarela"
+      "name": "Banana",
+      "price": 1.99,
+      "id": 4
     },
     {
-      "name": "Carro esportivo",
-      "price": "45122120",
-      "description": "Carro esportivo azul",
-      "id": "3583"
+      "name": "Banana",
+      "price": 1.99,
+      "id": 5
     },
     {
-      "id": "5b5d",
-      "name": "Mesa",
-      "price": "450",
-      "description": "Mesa de madeira azul"
+      "name": "",
+      "price": null,
+      "id": 6
+    },
+    {
+      "name": "afasdfsda",
+      "price": "12",
+      "id": 7
+    },
+    {
+      "name": "salve",
+      "price": "123",
+      "id": 8
+    },
+    {
+      "name": "Geladeira",
+      "price": "1800",
+      "id": 9
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 10
     }
   ]
 }
