@@ -1,0 +1,20 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px 0px;
+}
+
+.button-container {
+    display: flex;
+    gap: 30px;
+    margin: 15px 0px;
+}
+
+.button-container button {
+    padding: 1px 18px;
+}
+
+.mat-card {
+    padding: 20px;
+}

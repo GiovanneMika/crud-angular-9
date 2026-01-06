@@ -1,7 +1,6 @@
 import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { ProductService } from '../product.service';
 import { Product } from '../product.model';
-import { MatTable } from '@angular/material/table';
 
 @Component({
   selector: 'app-product-read',
@@ -26,7 +25,14 @@ export class ProductReadComponent implements OnInit, AfterViewInit {
       this.products = products;
       console.log(this.products);
     });
-
   }
 
+  deleteProduct(id: string): void {
+    if (window.confirm("Tem certeza que deseja excluir?")) {
+      this.productService.delete(id).subscribe(() => {
+        this.productService.showMessage(`Product deleted with success!`);
+        this.readProducts();
+      })
+    }
+  }
 }
