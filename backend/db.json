@@ -24,34 +24,19 @@
       "id": 4
     },
     {
-      "name": "Banana",
-      "price": 1.99,
+      "name": "Geladeira",
+      "price": 899.99,
       "id": 5
     },
     {
-      "name": "",
-      "price": null,
+      "name": "Televisão",
+      "price": 1299.99,
       "id": 6
     },
     {
-      "name": "afasdfsda",
-      "price": "12",
+      "name": "Computador",
+      "price": 1999.99,
       "id": 7
-    },
-    {
-      "name": "salve",
-      "price": "123",
-      "id": 8
-    },
-    {
-      "name": "Geladeira",
-      "price": "1800",
-      "id": 9
-    },
-    {
-      "name": "",
-      "price": null,
-      "id": 10
     }
   ]
 }
