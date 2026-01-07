@@ -65,5 +65,5 @@ Acesse: http://localhost:4200
 - Para testar mensagens de erro, pare o backend e tente criar/editar/excluir um produto.
 
 ## Autor
-- Baseado em aulas do professor [Nome do Professor]
-- Adaptado por [Seu Nome]
+- Baseado em aulas do professor Leonardo Leitão, da Cod3r
+- Adaptado por Giovanne Mika
