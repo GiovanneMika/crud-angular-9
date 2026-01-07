@@ -1,12 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta Azul",
-      "price": 19.99,
-      "description": "Este é um produto de exemplo."
-    },
-    {
       "id": 2,
       "name": "Lápis Vermelho",
       "price": 29.99,
@@ -14,8 +8,8 @@
     },
     {
       "id": 3,
-      "name": "Caderno Verde",
-      "price": 39.99,
+      "name": "",
+      "price": "",
       "description": "Este é o terceiro produto de exemplo."
     },
     {
@@ -29,14 +23,19 @@
       "id": 5
     },
     {
-      "name": "Televisão",
-      "price": 1299.99,
+      "name": "Abacaxi",
+      "price": 192,
       "id": 6
     },
     {
-      "name": "Computador",
-      "price": 1999.99,
+      "name": "sdf",
+      "price": 12,
       "id": 7
+    },
+    {
+      "name": "123",
+      "price": 12,
+      "id": 8
     }
   ]
 }

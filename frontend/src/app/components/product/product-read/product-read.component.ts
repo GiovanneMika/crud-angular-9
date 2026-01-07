@@ -9,6 +9,7 @@ import { Product } from '../product.model';
 })
 export class ProductReadComponent implements OnInit, AfterViewInit {
   products: Product[] = [];
+  product: Product;
   displayedColumns = ['id', 'name', 'price', 'action'];
 
   constructor(private productService: ProductService) { }
@@ -28,11 +29,13 @@ export class ProductReadComponent implements OnInit, AfterViewInit {
   }
 
   deleteProduct(id: string): void {
-    if (window.confirm("Tem certeza que deseja excluir?")) {
-      this.productService.delete(id).subscribe(() => {
-        this.productService.showMessage(`Product deleted with success!`);
-        this.readProducts();
-      })
-    }
+    this.productService.readById(id).subscribe(product => {
+      if (window.confirm(`Tem certeza que deseja excluir ${product.name}?`)) {
+        this.productService.delete(id).subscribe(() => {
+          this.productService.showMessage(`${product.name} excluído com sucesso!`);
+          this.readProducts();
+        });
+      }
+    });
   }
 }
